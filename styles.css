@@ -3,11 +3,11 @@
   --background: #f6f8fc;
   --surface: #ffffff;
   --surface-alt: #eef2fa;
-  --text: #131b2e;
+  --text: #000000;
   --muted: #5a6785;
   --border: #dde4f0;
   --primary: #1d4ed8;
-  --primary-dark: #15329c;
+  --primary-dark: #000000;
   --accent: #dc2626;
   --shadow: 0 20px 45px rgba(19, 27, 46, 0.08);
   --shadow-sm: 0 8px 20px rgba(19, 27, 46, 0.06);
