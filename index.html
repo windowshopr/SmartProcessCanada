@@ -5,34 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Smart Process Canada helps small and medium-sized businesses streamline operations with process automation, OCR, and agentic AI solutions."
+      content="Smart Process Canada builds custom-trained OCR, hosted digital forms, and agentic AI systems that remove manual data entry for small and medium-sized Canadian businesses."
     />
-    <title>Smart Process Canada | Process Automation, OCR &amp; Agentic AI</title>
+    <title>Smart Process Canada | Custom OCR, Digital Forms &amp; Agentic AI</title>
+    <link rel="icon" type="image/png" href="./assets/SmartProcessCanadaLogo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="hero">
       <nav class="nav">
-        <a class="brand" href="#top">Smart Process Canada</a>
+        <a class="brand" href="#top">
+          <span class="brand-mark">Smart Process</span>
+          <span class="brand-suffix">Canada</span>
+        </a>
         <div class="nav-links">
           <a href="#services">Services</a>
-          <a href="#approach">Approach</a>
-          <a href="#contact">Contact</a>
+          <a href="#approach">How we work</a>
+          <a href="#why">Why us</a>
+          <a class="nav-cta" href="#contact">Get in touch</a>
         </div>
       </nav>
 
       <section class="hero-content" id="top">
-        <p class="eyebrow">Automation built for growing Canadian businesses</p>
-        <h1>Process automation, OCR, and agentic AI that reduce manual work.</h1>
+        <p class="eyebrow">Document automation &amp; agentic AI for Canadian businesses</p>
+        <h1>Stop retyping paper. Start shipping data.</h1>
         <p class="lead">
-          Smart Process Canada designs and manages practical automation solutions
-          that help small to medium-sized businesses move faster, improve
-          accuracy, and scale without unnecessary operational overhead.
+          We build OCR that&rsquo;s trained on your business&rsquo;s own documents, digital
+          forms that replace paper entirely, and custom AI agents that take on the
+          manual work in between &mdash; so your team stops re-keying what a machine
+          can already read.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#contact">Start the conversation</a>
-          <a class="button button-secondary" href="#services">Explore services</a>
+          <a class="button button-primary" href="#contact">Book a free process review</a>
+          <a class="button button-secondary" href="#services">See the services</a>
         </div>
+
+        <ul class="trust-strip">
+          <li>Trained on your documents, not a generic demo</li>
+          <li>Paper forms replaced end to end</li>
+          <li>Human review and audit trail, always</li>
+        </ul>
       </section>
     </header>
 
@@ -40,33 +58,75 @@
       <section class="section" id="services">
         <div class="section-heading">
           <p class="eyebrow">Services</p>
-          <h2>Targeted solutions for the workflows that slow your team down.</h2>
+          <h2>Three ways we take manual work off your team&rsquo;s plate.</h2>
         </div>
 
         <div class="card-grid">
           <article class="card">
-            <h3>Business process automation</h3>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4h11l5 5v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M15 4v5h5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M7.5 13.5l2 2 4-4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>OCR trained on your forms</h3>
             <p>
-              Replace repetitive admin work with dependable digital workflows,
-              approvals, notifications, and system-to-system handoffs tailored
-              to your operation.
+              We don&rsquo;t point a generic OCR engine at your documents and hope.
+              We train the recognition system directly on your business&rsquo;s
+              paperwork and handwriting until it beats off-the-shelf accuracy on
+              the forms you actually use &mdash; so data entry clerks stop retyping
+              what the system already read correctly.
             </p>
+            <ul class="card-list">
+              <li>Learns from every human correction</li>
+              <li>Confidence-tiered review queue &mdash; only true exceptions reach a person</li>
+              <li>Full audit trail from scanned image to system record</li>
+            </ul>
           </article>
+
           <article class="card">
-            <h3>OCR and document intelligence</h3>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="2.5" width="14" height="19" rx="2" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M8.5 7h7M8.5 10.5h7M8.5 14h4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M8.5 18h2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Digital forms, hosted for you</h3>
             <p>
-              Turn invoices, forms, and other business documents into usable
-              data with OCR pipelines that reduce data entry and improve
-              turnaround time.
+              We rebuild your paper forms as clean, mobile-friendly digital forms
+              and host the whole thing. Your team fills them out on a phone,
+              tablet, or PC &mdash; even offline &mdash; and submissions flow
+              straight into your systems. No printing, no scanning, no re-keying.
             </p>
+            <ul class="card-list">
+              <li>Works offline in the field, syncs when back online</li>
+              <li>Same underlying data model as your OCR pipeline</li>
+              <li>One hosted platform your team always reaches at the same link</li>
+            </ul>
           </article>
+
           <article class="card">
-            <h3>Agentic AI development and management</h3>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="8" r="3.25" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M4.5 20c1-3.5 4-5.5 7.5-5.5s6.5 2 7.5 5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M18.5 3.5l.7 1.6 1.6.7-1.6.7-.7 1.6-.7-1.6-1.6-.7 1.6-.7.7-1.6Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Agentic AI consulting &amp; development</h3>
             <p>
-              Build AI agents that support internal teams, orchestrate tasks,
-              and connect with your existing tools while keeping governance and
-              oversight in focus.
+              Beyond documents, we design and build agentic AI systems that plug
+              into the tools you already run &mdash; automating multi-step tasks,
+              approvals, and internal processes, with oversight and guardrails
+              built in from day one, not bolted on after.
             </p>
+            <ul class="card-list">
+              <li>Scoped to your real workflows, not a generic chatbot</li>
+              <li>Integrates with your existing software and data</li>
+              <li>Human oversight and logging built into every agent</li>
+            </ul>
           </article>
         </div>
       </section>
@@ -74,38 +134,47 @@
       <section class="section section-alt" id="approach">
         <div class="section-heading">
           <p class="eyebrow">How we work</p>
-          <h2>Practical delivery from process discovery through long-term support.</h2>
+          <h2>A practical rollout, not a science project.</h2>
         </div>
 
         <div class="feature-grid">
           <div class="feature">
             <span class="feature-step">01</span>
-            <h3>Assess</h3>
+            <h3>Discover</h3>
             <p>
-              Review current processes, pain points, and systems to identify the
-              highest-value automation opportunities first.
+              We review your current forms, workflows, and pain points to find
+              where automation pays off fastest.
             </p>
           </div>
           <div class="feature">
             <span class="feature-step">02</span>
-            <h3>Design</h3>
+            <h3>Build &amp; train</h3>
             <p>
-              Map workflows, define AI and OCR touchpoints, and create a right-sized
-              implementation plan for your business.
+              We configure the OCR models, digital forms, or AI agents around
+              your real documents and processes &mdash; not a generic template.
             </p>
           </div>
           <div class="feature">
             <span class="feature-step">03</span>
-            <h3>Manage</h3>
+            <h3>Launch</h3>
             <p>
-              Launch, monitor, and refine solutions so your team gets durable
-              operational gains instead of one-off experiments.
+              You go live with a supported rollout. Your team keeps working; we
+              manage the platform underneath it.
+            </p>
+          </div>
+          <div class="feature">
+            <span class="feature-step">04</span>
+            <h3>Improve</h3>
+            <p>
+              Every correction and every submission makes the system faster and
+              more accurate. Automation that keeps compounding, not a one-off
+              install.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="why">
         <div class="section-heading">
           <p class="eyebrow">Why Smart Process Canada</p>
           <h2>Built for teams that want measurable efficiency, not buzzwords.</h2>
@@ -113,31 +182,78 @@
 
         <div class="benefits">
           <div>
-            <strong>Less manual work</strong>
-            <p>Free staff from repetitive tasks and refocus effort on customer and growth work.</p>
+            <strong>Trained on your paperwork</strong>
+            <p>Not a generic demo. Every OCR model and form is configured around the documents your business actually uses.</p>
           </div>
           <div>
-            <strong>Better accuracy</strong>
-            <p>Standardize document handling and task execution to reduce costly errors.</p>
+            <strong>One platform, start to finish</strong>
+            <p>OCR, digital forms, and AI agents share the same underlying data model, so nothing gets rebuilt twice.</p>
           </div>
           <div>
-            <strong>Operational visibility</strong>
-            <p>Use structured workflows and managed AI systems that are easier to monitor and improve.</p>
+            <strong>You stay in control</strong>
+            <p>Confidence-tiered review, human sign-off, and a full audit trail on every record &mdash; no black box.</p>
+          </div>
+          <div>
+            <strong>Canadian, hands-on support</strong>
+            <p>Direct access to the people who build and run your system, from the first call through ongoing support.</p>
           </div>
         </div>
       </section>
 
       <section class="section cta" id="contact">
-        <p class="eyebrow">Let’s talk</p>
-        <h2>Ready to modernize a workflow, document process, or AI initiative?</h2>
-        <p>
-          Smart Process Canada partners with small and medium-sized businesses to
-          deliver practical automation outcomes with clear business value.
+        <p class="eyebrow">Let&rsquo;s talk</p>
+        <h2>Ready to find the manual work worth automating?</h2>
+        <p class="cta-lead">
+          Tell us a bit about your business and the forms or workflows costing
+          you the most time. We&rsquo;ll follow up to set up a free process
+          review.
         </p>
-        <a class="button button-primary" href="mailto:info@smartprocesscanada.ca">
-          Contact Smart Process Canada
-        </a>
+
+        <form class="contact-form" action="https://formspree.io/f/xppwweeq" method="POST">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" autocomplete="organization" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone <span class="optional">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-field form-field-full">
+            <label for="message">What are you hoping to automate?</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <input type="hidden" name="_subject" value="New enquiry from smartprocesscanada.ca" />
+
+          <button type="submit" class="button button-primary form-submit">Send message</button>
+          <p class="form-note">
+            Prefer email? Reach us directly at
+            <a href="mailto:matt@smartprocess.ca">matt@smartprocess.ca</a>.
+          </p>
+        </form>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p class="footer-brand">Smart Process Canada</p>
+      <p>&copy; <span id="year"></span> Smart Process Canada. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
