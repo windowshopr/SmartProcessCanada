@@ -204,7 +204,22 @@ img {
 .benefits {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .card-grid,
+  .feature-grid,
+  .benefits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .feature-grid,
+  .benefits {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .card,
