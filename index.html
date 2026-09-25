@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Smart Process Canada builds custom-trained OCR, hosted digital forms, agentic AI systems, and custom software that remove manual work for small and medium-sized Canadian businesses."
+      content="Smart Process Canada builds ZeroType, a document-reading engine that learns your blank forms, your team's handwriting and your business's own vocabulary instead of just calling a vendor OCR API &mdash; plus hosted digital forms, agentic AI systems, and custom software for small and medium-sized Canadian businesses."
     />
-    <title>Smart Process Canada | OCR, Digital Forms, Agentic AI &amp; Custom Software</title>
+    <title>Smart Process Canada | ZeroType OCR, Digital Forms, Agentic AI &amp; Custom Software</title>
     <link rel="icon" type="image/png" href="./assets/SmartProcessCanadaLogo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,6 +42,7 @@
         </div>
 
         <ul class="trust-strip">
+          <li>ZeroType: our own reading engine, not a rebranded vendor API</li>
           <li>Trained on your documents, not a generic demo</li>
           <li>Paper forms replaced end to end</li>
           <li>Human review and audit trail, always</li>
@@ -65,19 +66,20 @@
                 <path d="M7.5 13.5l2 2 4-4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3>OCR trained on your forms</h3>
+            <h3>ZeroType &mdash; OCR trained on your forms</h3>
             <p>
-              We don&rsquo;t point a generic OCR engine at your documents and hope.
-              We train the recognition system directly on your business&rsquo;s
-              paperwork and handwriting until it beats off-the-shelf accuracy on
-              the forms you actually use &mdash; so data entry clerks stop retyping
-              what the system already read correctly.
+              ZeroType is our own document-reading engine. It doesn&rsquo;t just
+              point a vendor API at your paperwork and hope &mdash; it learns your
+              blank forms, your team&rsquo;s handwriting and your business&rsquo;s own
+              vocabulary before it ever bills a vendor for a second opinion, so data
+              entry clerks stop retyping what the system already read correctly.
             </p>
             <ul class="card-list">
               <li>Learns from every human correction</li>
               <li>Confidence-tiered review queue &mdash; only true exceptions reach a person</li>
               <li>Full audit trail from scanned image to system record</li>
             </ul>
+            <a class="card-link" href="#zerotype">See how ZeroType is different &rarr;</a>
           </article>
 
           <article class="card">
@@ -146,7 +148,81 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="approach">
+      <section class="section section-alt" id="zerotype">
+        <div class="section-heading">
+          <p class="eyebrow">The engine underneath</p>
+          <h2>ZeroType doesn&rsquo;t call a vendor and hope. It reads forms the way your team does.</h2>
+          <p class="section-lead">
+            Azure, Google and Amazon can transcribe a crop of text &mdash; that&rsquo;s
+            genuinely what they&rsquo;re good at. None of them know what your blank form
+            looks like, what your team&rsquo;s handwriting looks like, or what your
+            business calls things. That&rsquo;s the work ZeroType does first. The vendor
+            model sits behind our own engine as a fallback for the rare word nobody here
+            has confirmed yet &mdash; it is not the thing doing the reading.
+          </p>
+        </div>
+
+        <div class="compare">
+          <div class="compare-col compare-before">
+            <p class="compare-label">Off-the-shelf OCR API</p>
+            <ul>
+              <li>Reads the whole page, ink and printed form together, every time</li>
+              <li>Bills the vendor for every field on every page, forever</li>
+              <li>Guesses at your site names, part numbers and shorthand from a generic dictionary</li>
+              <li>No memory between documents &mdash; page 500 is read exactly as blindly as page 1</li>
+              <li>A low-confidence guess often comes back looking like a clean answer</li>
+            </ul>
+          </div>
+          <div class="compare-col compare-after">
+            <p class="compare-label">ZeroType</p>
+            <ul>
+              <li>Registers each page against its own blank template and subtracts the printed form, so only what your team wrote is left to read</li>
+              <li>Checks new writing against your own confirmed examples first; the vendor is only asked about what that corpus hasn&rsquo;t seen</li>
+              <li>Builds a living dictionary of your business&rsquo;s own vocabulary from every correction your team makes</li>
+              <li>Gets more accurate and cheaper to run the longer you use it &mdash; a correction on document one pays off on document two</li>
+              <li>A value it isn&rsquo;t sure of is never guessed &mdash; it&rsquo;s flagged for one person to confirm, one field, not one document</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature">
+            <h3>Blank-form learning</h3>
+            <p>
+              Every page is registered against the exact blank it came from, then the
+              printed lines, boxes and letterhead are digitally subtracted out &mdash;
+              leaving only the ink your team put down for the engine to read.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Preprocessing most engines skip</h3>
+            <p>
+              Faded carbon copies, curled paper, uneven lighting, skewed phone photos.
+              Pages are measured, straightened and repaired before a single character is
+              read &mdash; without inventing ink that was never there, and without
+              billing a vendor to read a page that was never going to come back clean.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Your business&rsquo;s own language</h3>
+            <p>
+              Site names, internal codes, abbreviations, industry shorthand &mdash; the
+              words no generic model has ever seen. ZeroType builds that vocabulary from
+              your own corrections instead of guessing off a public dictionary.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Nothing is invented</h3>
+            <p>
+              If a field can&rsquo;t be read with real confidence, it goes to a person
+              instead of getting guessed at &mdash; one field to confirm, never a whole
+              document to redo, with every decision kept on the record.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="approach">
         <div class="section-heading">
           <p class="eyebrow">How we work</p>
           <h2>A practical rollout, not a science project.</h2>
@@ -189,7 +265,7 @@
         </div>
       </section>
 
-      <section class="section" id="why">
+      <section class="section section-alt" id="why">
         <div class="section-heading">
           <p class="eyebrow">Why Smart Process Canada<span class="leaf" aria-hidden="true">🍁</span></p>
           <h2>No two businesses run the same way. Yours shouldn&rsquo;t get a generic solution.</h2>
